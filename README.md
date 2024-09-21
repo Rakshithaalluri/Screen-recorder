@@ -3,9 +3,13 @@ A simple web-based screen recorder that allows users to record their screen, cap
 
 ### Features
 Record Video: Users can record their screen in mp4 format and download the video.
+
 Capture Images: Users can take screenshots of the current screen and save them as images (jpeg).
+
 Filters: Apply different filters to the screen for image capture or during recording.
+
 Timer: Displays a timer while recording.
+
 Responsive Design: Optimized for various screen sizes, including mobile and tablet devices.
 
 Live Demo
@@ -13,9 +17,13 @@ https://screen-recorder-eosin.vercel.app/
 
 ### Technologies Used
 HTML5: Structure of the application.
+
 CSS3: For styling, animations, and media queries.
+
 JavaScript: Core logic for video recording, capturing, and applying filters.
+
 MediaRecorder API: To capture the user's screen as a video.
+
 Canvas API: For capturing screenshots from the video.
 
 ## How to Use
