@@ -155,3 +155,74 @@ video{
     top: 0;
     left: 0;
 }
+
+@media (max-width: 768px) {
+    .vid-container {
+        height: 100vh;
+        width: 100vw;
+    }
+  
+      .action-cont {
+          height: 10rem;  /* Adjust button container height */
+          width: 4rem;    /* Adjust button container width */
+          right: 2rem;    /* Bring buttons closer */
+          top: calc((100vh - 10rem) / 2);
+      }
+  
+      .action-cont > * {
+          height: 4rem;   /* Adjust button size */
+          width: 4rem;
+      }
+  
+      .timer-cont {
+          width: 4rem;
+          font-size: 0.7rem;  /* Reduce font size */
+      }
+  
+      .filter-cont {
+          width: 4rem;   /* Adjust filter container */
+          height: 14rem; /* Adjust filter container height */
+          left: 2rem;    /* Move filters closer */
+      }
+  
+      .filter {
+          height: 4rem;   /* Adjust filter size */
+    }
+}
+  
+  /* Mobile screens (480px and below) */
+@media (max-width: 480px) {
+    .vid-container {
+          height: 100vh;
+          width: 100vw;
+    }
+  
+      .action-cont {
+          height: 8rem;  /* Smaller button container */
+          width: 3rem;
+          right: 1rem;   /* Closer to the edge */
+          top: calc((100vh - 8rem) / 2);
+      }
+  
+      .action-cont > * {
+          height: 3rem;   /* Smaller buttons */
+          width: 3rem;
+      }
+  
+      .timer-cont {
+          width: 3rem;  /* Smaller timer container */
+          font-size: 0.6rem;  /* Reduce font size */
+          left: 1rem;    /* Move timer closer */
+      }
+  
+      .filter-cont {
+          width: 3rem;   /* Smaller filter container */
+          height: 12rem; /* Adjust filter container height */
+          left: 1rem;    /* Move filters closer */
+      }
+  
+      .filter {
+          height: 3rem;   /* Smaller filters */
+      }
+}
+  
