@@ -126,14 +126,6 @@ video{
     background-color: #fafae64a;
 }
 
-/* .lavender{
-    background-color: #e6e6fa;
-}
-
-.lightBlue{
-    background-color: #add8e6;
-}
-*/
 
 .lavender{
     background-color: #e6e6fa5e;
@@ -180,13 +172,13 @@ video{
       }
   
       .filter-cont {
-          width: 4rem;   /* Adjust filter container */
-          height: 14rem; /* Adjust filter container height */
-          left: 2rem;    /* Move filters closer */
+          width: 4rem;   
+          height: 14rem; 
+          left: 2rem;    
       }
   
       .filter {
-          height: 4rem;   /* Adjust filter size */
+          height: 4rem;  
     }
 }
   
@@ -210,19 +202,19 @@ video{
       }
   
       .timer-cont {
-          width: 3rem;  /* Smaller timer container */
-          font-size: 0.6rem;  /* Reduce font size */
-          left: 1rem;    /* Move timer closer */
+          width: 3rem;  
+          font-size: 0.6rem;  
+          left: 1rem;    
       }
   
       .filter-cont {
-          width: 3rem;   /* Smaller filter container */
-          height: 12rem; /* Adjust filter container height */
-          left: 1rem;    /* Move filters closer */
+          width: 3rem;  
+          height: 12rem; 
+          left: 1rem;    
       }
   
       .filter {
-          height: 3rem;   /* Smaller filters */
+          height: 3rem;   
       }
 }
   
