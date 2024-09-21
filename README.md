@@ -21,11 +21,15 @@ Canvas API: For capturing screenshots from the video.
 ## How to Use
 ### 1.Clone the repository:
 git clone https://github.com/yourusername/screen-recorder.git
+
 ### 2.Navigate to the project directory:
 cd screen-recorder
+
 ### 3.Open the index.html file in your browser:
 open index.html
+
 4.Grant screen permissions for the recorder to access your screen.
+
 5.Use the Record button to start recording and the Capture button to take a screenshot. The files will be automatically downloaded.
 
 ## File Structure
@@ -38,6 +42,8 @@ screen-recorder/
 
 ## Future Improvements
 Add audio recording: Currently, the screen recorder only captures video.
+
 Multiple filter options: Allow users to apply more filter options dynamically.
+
 Custom file names: Let users specify custom names for the downloaded files.
 
