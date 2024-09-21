@@ -43,9 +43,13 @@ open index.html
 ## File Structure
 screen-recorder/
 │
+
 ├── index.html          # Main HTML file
+
 ├── style.css           # CSS file for styling
+
 ├── index.js            # JavaScript logic
+
 └── README.md           # Project documentation
 
 ## Future Improvements
