@@ -41,8 +41,7 @@ open index.html
 5.Use the Record button to start recording and the Capture button to take a screenshot. The files will be automatically downloaded.
 
 ## File Structure
-screen-recorder/
-│
+screen-recorder
 
 ├── index.html          # Main HTML file
 
